@@ -10,3 +10,5 @@ const filteredItems = inputTextArray.filter(inputTextArray => inputTextArray !==
 
 console.log(filteredItems.join(''))
 
+
+
