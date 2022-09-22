@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Word Editor</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>
+        Bubble.io Task
+    </title>
 </head>
-<body>
-    <h1>Magic Word Editor</h1>
+ 
+<body style="text-align: center;">
+     
+    <h1 style="color: green;">
+        Magic Sentence Editor
+    </h1>
+ 
+    <h3 id="po">This is a magic sentence editor</h3>
+    <h3 id="po">It helps you to remove unwanted letters or characters from whole sentence</h3>
 
-    <script src="script.js"></script>
+Sentence to edit: <input type="text" id="myText" value="">
+Letters/Characters to remove: <input type="text" id="myText2" value="">
+<p>Note: you can enter multiple letters at once</p>
+
+<h4 id="po">Click the button to see edited sentence</h4>
+
+<button onclick="myFunction()">Let's try</button>
+
+
+
+<p id="result"></p>
+
+
+<script type = "text/javascript" src="myFunction.js"></script>
+
 </body>
 </html>
